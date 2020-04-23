@@ -1,17 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-
+import React from 'react'
+import ReactDOM from 'react-dom'
+// import PrimeiroComponente from './components/PrimeiroComponente'
+// import { CompA, CompB } from './components/DoisComponentes'
+// import MultiElementos from './components/MultiElementos'
+// import FamiliaSilva from './components/FamiliaSilva'
+// import Familia from './components/Familia'
+// import Membro from './components/Membro'
+// import ComponentComFun from './components/ComponentComFunc'
+import Pai from './components/Pai'
+import ExClasse from './components/ExClasse'
+const elemento = document.getElementById('root')
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+    <div>
+        {/* <MultiElementos /> */}
+        {/*<PrimeiroComponente valor="Bom dia!" />*/}
+        {/* <CompA valor="Olá eu sou A"/>
+        <CompB valor="Olá eu sou B"/> */}
+        {/* <FamiliaSilva /> */}
+        {/* <Familia sobrenome="Emiliano">
+            <Membro nome="Wylgner" />
+            <Membro nome="Maria" />
+            <Membro nome="Gilmar" />
+            <Membro nome="Lucas" />
+            {/* <Membro nome="Lucas" sobrenome="Emiliano" />
+            <Membro nome="Pedro" sobrenome="Emiliano" /> */}
+        {/* </Familia> */}
+        {/* <ComponentComFun /> */}
+        <Pai />
+        {/* <ExClasse /> */}
+    </div>, elemento)
